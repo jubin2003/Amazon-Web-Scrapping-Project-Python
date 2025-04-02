@@ -1,5 +1,5 @@
 # Amazon-Web-Scrapping-Project-Python
-
+![Project Banner](public/project_thumbnail.jpeg)
 ## Overview
 This script is an Amazon price tracker that scrapes the price, product name, and rating of an item from Amazon. It logs the data into a CSV file and sends an email notification if the price drops below $15.
 
