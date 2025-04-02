@@ -96,7 +96,7 @@ This function:
 ```python
 def send_mail():
     server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
-    server.login('example@gmail.com', '**********')
+    server.login('example@gmail.com', '***********')
     subject = "The Shirt you want is below $15! Now is your chance to buy!"
     body = "Alex, This is the moment we have been waiting for. Now is your chance to pick up the shirt of your dreams. Don't mess it up! Link here: https://www.amazon.com/Funny-Data-Systems-Business-Analyst/dp/B07FNW9FGJ"
     msg = f"Subject: {subject}\n\n{body}"
